@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meditation Café | Silence the Noise. Reconnect With Yourself.</title>
+  <meta name="description" content="Join our 3-Day Live Guided Meditation Program rooted in the Himalayan tradition. Designed for modern, busy lives. 100% practice.">
+
+  <!-- OpenGraph Tags -->
+  <meta property="og:title" content="Meditation Café - 3-Day Guided Journey">
+  <meta property="og:description" content="Silence the noise. Reconnect with yourself. Live guided sessions by Rupam.">
+  <meta property="og:image" content="https://picsum.photos/1200/630?grayscale">
+  <meta property="og:url" content="https://meditationcafe.in">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            sand: '#F5F2ED',
+            forest: '#1A2F23',
+            gold: '#C5A059',
+            charcoal: '#2C2C2C',
+          },
+          animation: {
+            'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'float': 'float 6s ease-in-out infinite',
+          },
+          keyframes: {
+            float: {
+              '0%, 100%': { transform: 'translateY(0)' },
+              '50%': { transform: 'translateY(-10px)' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #F5F2ED;
+      color: #2C2C2C;
+    }
+    .bg-paper {
+      background-image: url('https://www.transparenttextures.com/patterns/handmade-paper.png');
+    }
+    .mandala-bg {
+      background-image: url('https://www.transparenttextures.com/patterns/flower-outline.png');
+      opacity: 0.03;
+    }
+  </style>
+</head>
+<body class="bg-paper">
+  <div id="root"></div>
+
+  <!-- React entry point -->
+  <script type="module" src="./index.tsx"></script>
+</body>
+</html>
