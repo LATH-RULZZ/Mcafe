@@ -27,7 +27,7 @@ export const CoachSection: React.FC = () => {
               {/* Meditation Indoor Image */}
               <div className="aspect-square md:aspect-auto md:h-1/2 rounded-3xl overflow-hidden border border-gold/5 shadow-lg group">
                 <img 
-                    src="images/meditation-home.jpg"   
+                    src="/images/meditation-home.jpg"   
                     alt="Rupam Meditating at Home" 
                   className="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700"
                 />
@@ -39,7 +39,7 @@ export const CoachSection: React.FC = () => {
               {/* Regular Life / Family Image (Tall) - Updated to Baby Feet in Hands visual as requested */}
               <div className="aspect-[4/5] md:aspect-auto md:h-[60%] rounded-3xl overflow-hidden border border-gold/5 shadow-lg group">
                 <img 
-                  src="images/baby-feet.jpg"
+                  src="/images/baby-feet.jpg"
                    alt="Baby feet in parent hands" 
                   className="w-full h-full object-cover grayscale-[0.1] group-hover:grayscale-0 transition-all duration-700"
                 />
@@ -48,7 +48,7 @@ export const CoachSection: React.FC = () => {
               {/* Meditation Mountain Image (Wide) */}
               <div className="aspect-video md:aspect-auto md:h-[40%] rounded-3xl overflow-hidden border border-gold/5 shadow-lg group">
                 <img 
-                  src="images/mountain.jpg" 
+                  src="/images/mountain.jpg" 
                   alt="Rupam Meditating in the Mountains" 
                   className="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700"
                 />
