@@ -27,8 +27,8 @@ export const CoachSection: React.FC = () => {
               {/* Meditation Indoor Image */}
               <div className="aspect-square md:aspect-auto md:h-1/2 rounded-3xl overflow-hidden border border-gold/5 shadow-lg group">
                 <img 
-                  src="https://images.unsplash.com/photo-1545389336-cf090694435e?auto=format&fit=crop&q=80&w=1000" 
-                  alt="Rupam Meditating at Home" 
+                    src="images/meditation-home.jpg"   
+                    alt="Rupam Meditating at Home" 
                   className="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700"
                 />
               </div>
@@ -39,8 +39,8 @@ export const CoachSection: React.FC = () => {
               {/* Regular Life / Family Image (Tall) - Updated to Baby Feet in Hands visual as requested */}
               <div className="aspect-[4/5] md:aspect-auto md:h-[60%] rounded-3xl overflow-hidden border border-gold/5 shadow-lg group">
                 <img 
-                  src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&q=80&w=1000" 
-                  alt="Baby feet in parent hands" 
+                  src="images/baby-feet.jpg"
+                   alt="Baby feet in parent hands" 
                   className="w-full h-full object-cover grayscale-[0.1] group-hover:grayscale-0 transition-all duration-700"
                 />
               </div>
@@ -48,7 +48,7 @@ export const CoachSection: React.FC = () => {
               {/* Meditation Mountain Image (Wide) */}
               <div className="aspect-video md:aspect-auto md:h-[40%] rounded-3xl overflow-hidden border border-gold/5 shadow-lg group">
                 <img 
-                  src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=1000" 
+                  src="images/mountain.jpg" 
                   alt="Rupam Meditating in the Mountains" 
                   className="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700"
                 />
