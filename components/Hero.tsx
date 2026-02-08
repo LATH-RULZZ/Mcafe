@@ -24,13 +24,16 @@ export const Hero: React.FC = () => {
         </p>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-20">
-          <a 
-            href="#reserve" 
-            className="group bg-forest text-sand px-8 py-5 rounded-full text-lg font-semibold flex items-center gap-3 hover:scale-105 transition-all shadow-xl shadow-forest/20 w-full md:w-auto justify-center"
-          >
-            Yes I am in
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </a>
+          <a
+  href="https://wa.me/917497870552?text=Hi%20Yes%20I%20am%20in.%20I%20want%20to%20move%20forward.%20Please%20guide%20me."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group bg-forest text-sand px-8 py-5 rounded-full text-lg font-semibold flex items-center gap-3 hover:scale-105 transition-all shadow-xl shadow-forest/20 w-full md:w-auto justify-center"
+>
+  Yes I am in
+  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+</a>
+
           <a 
             href="#intro-video"
             className="flex items-center gap-3 text-forest font-semibold hover:opacity-70 transition-opacity px-8 py-5 group"

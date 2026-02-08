@@ -41,13 +41,16 @@ export const SocialProof: React.FC = () => {
         </div>
 
         <div className="flex flex-col items-center">
-          <a 
-            href="#reserve" 
-            className="group bg-gold text-forest px-10 py-5 rounded-full font-bold text-lg hover:scale-105 transition-all shadow-xl shadow-gold/20 flex items-center gap-3"
-          >
-            Start My Own Journey
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </a>
+          <a
+  href="https://wa.me/917497870552?text=Hi%20I%20want%20to%20start%20my%20own%20journey.%20Please%20guide%20me."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group bg-gold text-forest px-10 py-5 rounded-full font-bold text-lg hover:scale-105 transition-all shadow-xl shadow-gold/20 flex items-center gap-3"
+>
+  Start My Own Journey
+  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+</a>
+
         </div>
       </div>
     </section>

@@ -92,12 +92,15 @@ export const ProgramTimeline: React.FC = () => {
             <p className="text-sand/70 mb-10 text-lg leading-relaxed max-w-md mx-auto">
               This is a guided introduction. No pressure, no auto-enrollment, no sales during sessions. Just pure practice.
             </p>
-            <a 
-              href="#reserve" 
-              className="inline-block bg-gold text-forest px-12 py-5 rounded-full font-bold text-xl hover:bg-white transition-all hover:scale-105 shadow-xl shadow-gold/20"
-            >
-              Yes I am in
-            </a>
+            <a
+  href="https://wa.me/917497870552?text=Hi%20Yes%20I%20am%20in.%20I%20would%20like%20to%20get%20started."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-gold text-forest px-12 py-5 rounded-full font-bold text-xl hover:bg-white transition-all hover:scale-105 shadow-xl shadow-gold/20"
+>
+  Yes I am in
+</a>
+
             <p className="mt-6 text-[10px] text-gold font-bold uppercase tracking-[0.2em]">
               Next batch starts Friday, 6 February
             </p>

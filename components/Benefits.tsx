@@ -59,13 +59,16 @@ export const Benefits: React.FC = () => {
         </div>
 
         <div className="text-center">
-          <a 
-            href="#reserve" 
-            className="inline-flex items-center gap-3 bg-sand text-forest px-10 py-5 rounded-full font-bold text-lg hover:scale-105 transition-all shadow-xl shadow-black/20 group"
-          >
-            I want these benefits
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </a>
+          <a
+  href="https://wa.me/917497870552?text=Hi%20I%20am%20interested%20in%20these%20benefits.%20Please%20guide%20me."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-3 bg-sand text-forest px-10 py-5 rounded-full font-bold text-lg hover:scale-105 transition-all shadow-xl shadow-black/20 group"
+>
+  I want these benefits
+  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+</a>
+
         </div>
       </div>
     </section>
